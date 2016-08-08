@@ -8,7 +8,3 @@ python:
 # Comando de inicio de teste.
 script:
   - python test_dado.py
-after script:
-notifications:
-  recipients:
-    - bhyanbrito+github@gmail.com
