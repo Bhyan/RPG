@@ -7,4 +7,4 @@ python:
   - "3.4"
 # Comando de inicio de teste.
 script:
-  - python test/test_dado.py
+  - python dado/test_dado.py
