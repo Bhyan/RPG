@@ -7,7 +7,7 @@ python:
   - "3.4"
 # Comando de inicio de teste.
 script:
-  - test_dado.py
+  - python test_dado.py
 after script:
 notifications:
   recipients:
