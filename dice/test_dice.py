@@ -21,7 +21,7 @@ class Testdices(unittest.TestCase):
         obj.scrolling(20, 100)
         obj.scrolling(100, 100)
 
-    def setDown(self):
+    def tearDown(self):
         pass
 
 if __name__ == '__main__':
