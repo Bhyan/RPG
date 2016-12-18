@@ -6,4 +6,4 @@ python:
   - "3.4"
 # Comando de inicio de teste.
 script:
-  - python dado/test_dado.py
+  - python dice/test_dice.py
