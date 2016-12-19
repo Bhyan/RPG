@@ -4,6 +4,6 @@ python:
   - "3.2"
   - "3.3"
   - "3.4"
-# Comando de inicio de teste.
+  - "3.5"
 script:
   - python dice/test_dice.py
