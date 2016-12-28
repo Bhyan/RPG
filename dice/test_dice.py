@@ -20,6 +20,8 @@ class Testdices(unittest.TestCase):
         obj.scrolling(12, 100)
         obj.scrolling(20, 100)
         obj.scrolling(100, 100)
+        # Test exception
+        self.assertRaises(Exception, dice.Dice.scrolling, (1, 10))
 
     def tearDown(self):
         pass

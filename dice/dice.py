@@ -8,6 +8,8 @@ class Dice(object):
         self.name = ('{}{}'.format(scrolling, random.randint(1, 100)))
 
     def scrolling(self, faces, quantity, bonus=0, difficulty=0):
+        if faces not in (2, 4, 6, 8, 10, 12, 20, 100):
+            raise Exception('Invalid dice.')
         self.faces = faces
         self.quantity = quantity
         self.bonus = bonus
