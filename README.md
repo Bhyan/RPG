@@ -10,13 +10,3 @@ To run the test:
 ```
 $ python -m unittest -v test_dice.py
 ```
-
-- [ ] Mercury
-- [x] Venus
-- [x] Earth (Orbit/Moon)
-- [x] Mars
-- [ ] Jupiter
-- [ ] Saturn
-- [ ] Uranus
-- [ ] Neptune
-- [ ] Comet Haley
